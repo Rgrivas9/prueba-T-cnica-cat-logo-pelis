@@ -1,5 +1,5 @@
 /* import * as fs from 'fs'
-import newAndOrderData from './scripts.js/newAndOrderData'
+import newAndOrderData from './scripts/newAndOrderData'
 
 const newAndOrderDataFile = (): void => {
   fs.writeFile(
@@ -11,16 +11,13 @@ const newAndOrderDataFile = (): void => {
   )
 }
 newAndOrderDataFile() */
-
-/* import saveLocalImg from './scripts.js/saveLocalImg'
+/* 
+import saveLocalImg from './scripts/saveLocalImg'
 import finalSample from '../../data/finalSample.json'
 
 const saveImages = ():void => {
     saveLocalImg(finalSample)
 }
 saveImages()
- */
-/* import injectDB from "./scripts/injectDB";
-injectDB()
- 
+
  */
