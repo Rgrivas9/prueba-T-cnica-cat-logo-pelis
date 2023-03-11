@@ -8,7 +8,9 @@ exports.GetAll = async (req, res) => {
     message = "",
     data = "",
     statuscode = 0,
-    response = {};
+    response = {},
+    prev = null,
+    next = null;
   const page =
       req.query.page && !isNaN(parseInt(req.query.page))
         ? parseInt(req.query.page)
@@ -48,7 +50,7 @@ exports.GetAll = async (req, res) => {
     if (respOdm.err) {
       (status = "Failure"),
         (errorcode = respOdm.err.code),
-        (message = respOrm.err.messsage),
+        (message = respOdm.err.messsage),
         (statuscode = enum_.CODE_BAD_REQUEST);
     } else {
       (message = "Success Response"),

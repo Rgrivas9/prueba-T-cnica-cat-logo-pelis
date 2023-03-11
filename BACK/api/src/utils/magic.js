@@ -5,8 +5,8 @@ exports.ResponseService = async (
   errorCode,
   message,
   data,
-  prev=null,
-  next=null
+  prev = null,
+  next = null
 ) => {
   return await {
     status: status,
