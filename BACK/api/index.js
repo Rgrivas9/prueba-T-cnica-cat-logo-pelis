@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 const config = require("config-yml");
 const server = require("./src/server");
 const magic = require("./src/utils/magic");
