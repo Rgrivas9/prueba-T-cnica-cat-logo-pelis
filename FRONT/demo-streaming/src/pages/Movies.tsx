@@ -1,12 +1,16 @@
+import { useEffect } from 'react'
 import { PageContextType, usePageContext } from '../context/page.Context'
+import Main from '../ui-components/templates/Main.ui'
 
 const Movies = (): React.ReactElement => {
   const { page, setPage }: PageContextType = usePageContext()
-  setPage('movies')
+  useEffect(()=>{
+    setPage('Movies')
+  },[])
   return (
-    <main>
+    <Main>
       <h1>{page}</h1>
-    </main>
+    </Main>
   )
 }
 export default Movies

@@ -15,7 +15,7 @@ export const PageContext = createContext<PageContextType>({
 })
 export const usePageContext = () => useContext(PageContext)
 export const PageContextProvider = ({ children }: Props): JSX.Element => {
-  const [page, setPage] = useState('home')
+  const [page, setPage] = useState('Home')
   return (
     <PageContext.Provider value={{ page, setPage }}>
       {children}
