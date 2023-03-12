@@ -11,5 +11,7 @@ const Icons = {
     'https://res.cloudinary.com/di0zpa5yw/image/upload/v1678633698/varios/social_vleqzk.png',
   facebook:
     'https://res.cloudinary.com/di0zpa5yw/image/upload/v1678633697/varios/simbolo-de-la-aplicacion-de-facebook_itilrr.png',
+  placeholder:
+    'https://res.cloudinary.com/di0zpa5yw/image/upload/v1678654323/DemoStreaming/placeholder_rcpdik.png',
 }
 export default Icons

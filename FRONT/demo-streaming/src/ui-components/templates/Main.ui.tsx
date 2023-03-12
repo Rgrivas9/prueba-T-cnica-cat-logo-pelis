@@ -11,7 +11,7 @@ const MainStyled = styled.main<MainStyledProps>`
   display: flex;
   flex-wrap: wrap;
   background-color: ${Palette.main};
-  padding: ${Spacing._2} ${Spacing._10};
+  padding: ${Spacing.main_padding};
 `
 const Main = ({ height, children }: MainStyledProps) => {
   return <MainStyled height={height}>{children}</MainStyled>
